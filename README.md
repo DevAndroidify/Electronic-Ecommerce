@@ -35,7 +35,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This project was inspired by papayacoders.
 
 ## IMAGES
-<img src="https://github.com/DevAndroidify/Electronic-Ecommerce/assets/138611123/d68de8a0-eb27-48b0-8e3e-61bed5d429dc" width="400" height="800"/>
-<img src="https://github.com/DevAndroidify/Electronic-Ecommerce/assets/138611123/868d8f6b-f964-458c-800b-eeffe5ce6caa" width="400" height="800"/>
 <img src="https://github.com/DevAndroidify/Electronic-Ecommerce/assets/138611123/ba081d75-9f46-4639-be8b-c31ae9788640" width="400" height="800"/>
+<img src="https://github.com/DevAndroidify/Electronic-Ecommerce/assets/138611123/868d8f6b-f964-458c-800b-eeffe5ce6caa" width="400" height="800"/>
+
+<img src="https://github.com/DevAndroidify/Electronic-Ecommerce/assets/138611123/d68de8a0-eb27-48b0-8e3e-61bed5d429dc" width="400" height="800"/>
 
