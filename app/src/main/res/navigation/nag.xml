@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nag"
+    app:startDestination="@id/home2">
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.myapplication.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_search"
+            app:destination="@id/search" />
+    </fragment>
+    <fragment
+        android:id="@+id/cart"
+        android:name="com.example.myapplication.cart"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/more"
+        android:name="com.example.myapplication.more"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" >
+        <action
+            android:id="@+id/action_more_to_registeractivity"
+            app:destination="@id/registeractivity"
+            app:popUpTo="@id/registeractivity"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.myapplication.search"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <activity
+        android:id="@+id/registeractivity"
+        android:name="com.example.myapplication.registeractivity"
+        android:label="activity_registeractivity"
+        tools:layout="@layout/activity_registeractivity" />
+</navigation>
